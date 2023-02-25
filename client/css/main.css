@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(25, 25, 25);
+}
+h1 {
+  color: #fff;
+  font-size: 6rem;
+}
+.wraper {
+  margin-left: 3rem;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.postos-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.post-item {
+  flex: 1;
+  background-color: rgb(170, 170, 170);
+  max-width: 500px;
+  padding: 1rem 2rem;
+
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.post-item h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.post-item p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
